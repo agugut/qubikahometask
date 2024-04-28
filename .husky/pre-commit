@@ -1,0 +1,4 @@
+#!/bin/sh
+. ".husky/husky.sh"
+
+npx lint-staged && touch .commit 

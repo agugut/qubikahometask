@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "baseUrl": "../js",
+        "esModuleInterop": true,
+        "jsx": "preserve",
+        "lib": ["es2017", "dom", "es2019"],
+        "module": "commonjs",
+        "resolveJsonModule": true,
+        "strict": true,
+        "target": "es6",
+        "types": ["node"],
+        "allowJs": true,
+        "checkJs": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "skipLibCheck": true
+    },
+    "include": ["**/*.ts", "**/*.js", "**/*.*"],
+    "exclude": ["node_modules", ".eslintrc.js", "scripts/*", "docs"]
+}

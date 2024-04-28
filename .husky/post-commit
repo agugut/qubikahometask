@@ -1,0 +1,10 @@
+#!/bin/sh
+. ".husky/husky.sh"
+
+if [ -e .commit ]
+    then
+    rm .commit
+    npm run docs
+    git add docs
+    git commit --amend -C HEAD --no-verify
+fi

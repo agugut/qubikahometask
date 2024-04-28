@@ -1,0 +1,4 @@
+#!/bin/sh
+. ".husky/husky.sh"
+
+npm run pre-push
